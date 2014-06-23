@@ -1,0 +1,55 @@
+@charset"UTF-8";
+
+html{
+    background-image:url("../images/koubou2.bmp");
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+body{
+    width:1000px;   
+}
+#kirishima{
+    position:relative;
+    opacity:0.75;
+}
+
+#hey{
+width:900px;
+height:400px;
+margin:100px 100px 0px 50px;
+
+}
+
+#kagakubu{
+    font-size:40px;
+    color:red;
+    height:65px;
+    line-height:70px;
+    width:500px;
+    vertical-align:middle;
+    background-color:white;
+    margin:120px 0px -200px 80px;
+    position:relative;
+    opacity:0.85;
+}
+
+#ha{
+    width:700px;
+    margin:50px auto 0px 100px;
+}
+
+#tanoshii{
+    height:40px;
+    font-size:30px;
+    width:300px;
+    margin:40px auto 20px 50px;
+    padding:0px 0px 0px 10px;
+    color:white;
+    background-color:#FF1B4C;
+}
+
+#yo{
+    margin:0px auto 0px 50px;
+    height:100px;
+}

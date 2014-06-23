@@ -1,0 +1,32 @@
+html{
+    background-color:yellowgreen;
+}
+
+body{
+    width:1000px;
+    background-color:white;
+    height:auto;
+}
+}
+
+.embargoedstory{
+    background-color:white;
+    
+}
+
+.sub{
+    font-size:22px;
+    margin:0px auto 50px 50px;
+    background-color:white;
+}
+
+.pass{
+    lineheight:20px;
+    font-size:18px;
+    margin:0px 0px 50px 50px;
+    background-color:white;
+}
+
+#kongou{
+    margin:0px 0px 0px 0px;
+}

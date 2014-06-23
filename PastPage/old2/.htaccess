@@ -1,0 +1,6 @@
+Options +FollowSymLinks +ExecCGI +Includes
+# AddType text/x-server-parsed-html .html
+# AddType text/x-server-parsed-html .htm
+AddType application/x-httpd-cgi .cgi
+AddType application/x-httpd-cgi .pl
+DirectoryIndex index.html

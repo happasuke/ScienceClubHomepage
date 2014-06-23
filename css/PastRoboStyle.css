@@ -1,0 +1,106 @@
+@charset"UTF-8";
+
+*{
+    background-color:rosybrown;
+}
+
+body{
+    background-color:white;
+}
+
+#mainimg{
+    width:400px;
+    height:300px;
+    margin:auto auto;
+}
+
+#mainimg img{
+    width:400px;
+    height:300px;
+    background-color:white;
+}
+
+.mainimgt{
+    width:270px;
+    height:400px;
+    background-color:white;
+}
+.mainimg{
+    width:400px;
+    height:300px;
+    background-color:white;
+}
+
+.teamname{
+    font-size:30px;
+    background-color:crimson;
+    width:500px;
+    color:white;
+    margin:10px auto  10px auto;
+}
+
+.roboname{
+    font-size:25px;
+    text-align:center;
+    line-height:middle;
+    width:400px;
+    height:40px;
+    background-color:red;
+    color:white;
+    margin:auto auto;
+}
+
+.pcell{
+    width:700px;
+    height:30px;
+    margin:auto auto;
+    background-color:white;    
+}
+
+.passage{
+    width:1000px;
+    height:250px;
+    margin:0px auto 0px auto;
+    text-align:center;
+    background-color:white;
+}
+.passage p{
+    background-color:white; 
+}
+.passage FONT{
+    background-color:white;
+}
+.passage b{
+   background-color:white; 
+}
+
+#main{
+    background-color:white;
+    text-align:center;
+}
+
+#main img{
+}
+
+#OtherImage{
+    width:1000px;
+    background-color:white;
+}
+
+#OtherImage td{
+    height:60px;
+    background-color:white;
+    text-align:center;
+}
+#OtherImage img{
+    margin:0px auto 0px;
+    width:200px;
+    height:150px;
+}
+#eximg{
+    background-color:white;
+    margin:0px auto 0px;
+    text-align:center;
+    width:1000px;
+    height:40px;
+}

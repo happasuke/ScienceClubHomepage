@@ -1,0 +1,1 @@
+ARASHI_LOG<>0<>

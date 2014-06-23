@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="jp">
+	<head>
+		<meta charset="UTF-8">
+		<title>科学部ホームページ</title>
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta name="Keywords" content="科学部,仙台高専,ロボコン,広瀬" lang="ja">
+		<meta name="description" content="仙台高専広瀬キャンパス科学部のホームページです。">
+		<link rel="stylesheet" type="text/css" href="css/indexStyle.css">
+		<link rel="shortcut icon" href="images/sci.ico">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+			<script language="javaScript">
+			function slideSwitch() {
+			   var $active = $('#slideshow img.active');
+
+			   if ( $active.length == 0 ) $active = $('#slideshow img:last');
+
+			   var $next =  $active.next().length ? $active.next()
+			      : $('#slideshow img:first');
+
+			   $active.addClass('last-active');
+
+			   $next.css({opacity: 0.0})
+			      .addClass('active')
+			      .animate({opacity: 1.0}, 1000, function() {
+			           $active.removeClass('active last-active');
+			      });
+			}
+			$(function() {
+				setInterval( "slideSwitch()", 5000 );
+			});
+			</script>
+	</head>
+
+	<body>
+		<p class="top">SNCT<br>SCIENCE<br>CLUB</p>
+		
+		<header id="h">
+		</header>
+
+			<p id="slideshow">
+			   <img src="images/topslide/i1.jpg" class="active">
+			   <img src="images/topslide/i2.jpg">
+			   <img src="images/topslide/i3.jpg">
+			   <img src="images/topslide/i4.jpg">
+			   <img src="images/topslide/i5.jpg">
+			</p>
+
+		
+		<nav id="glnavIndex">
+		<ul>
+			<a href = "index.html"><li class="frontelm">Home</li></a>
+			<a href = "aboutus.html"><li class="frontelm">AboutUs</li></a>
+			<a href = "clubrobocon.html"><li class="frontelm">ClubRobocon</li></a>
+			<a href = "nhkrobocon.html"><li class="frontelm">NHKRobocon</li></a>
+			<a href = "links.html"><li class="frontelm">Link</li></a>
+		</ul>
+		</nav>
+
+		<br>
+
+		<p class="welcome">
+		仙台高専広瀬キャンパス科学部のホームページへようこそ!<br>
+		科学部とは主にアイディア対決ロボットコンテストに出場している部活です！<br>
+		他にも交流ロボコン、地域貢献などの活動をしています！<br>
+		</p>
+
+		<br>
+		<!--最近の出来事,お知らせの記事-->
+		<p id="recentevent">Recent Event</p>
+
+		<!--三つくらいまで-->
+		<table id="whatnew">
+
+		<tr>
+			<td class="contents">
+				<a href="event/sinkan2014.html">
+					<img src="event/sinkan2014/sum.jpg">
+				</a>
+				<p>新入生歓迎会を行いました！</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="contents">
+				<a href="event/kouryurobocon2014.html">
+					<img src="event/kouryurobocon2014/sum.jpg">
+				</a>
+				<p>交流ロボコンに参加しました</p>
+			</td>
+		</tr>
+		<tr>
+			<td class="contents">
+				<a href="clubrobocon.html">
+					<img src="ClubRobocon/image/sum.jpg">
+				</a>
+				<p>部内ロボコンを開催しました！！ </p>
+			</td>
+		</tr>
+
+		</table>
+
+		<br>
+
+		<a class="twitter-timeline" href="https://twitter.com/sncthc_science" data-widget-id="444349400714715136">@sncthc_science からのツイート</a>
+		<script>
+		!function(d,s,id){
+			var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+			if(!d.getElementById(id)){
+				js=d.createElement(s);
+				js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js,fjs);
+			}
+		}(document,"script","twitter-wjs");
+		</script>
+
+		<!--いままでのお知らせの部分-->
+		<div id="information">
+		<table>
+		<thead>
+		<tr><th><font>いままでの活動</font></th></tr>
+		</thead>
+
+		<tbody>
+		<tr><td><ul>
+
+		<li><a href="event/sinkan2014.html">14/04/24　新入生歓迎会を行いました！</a></li>
+		<li>14/03/29　YouTubeに交流ロボコンの動画をアップロードしました！</li>
+		<li>14/03/17　交流ロボコンに参加してきました</li>
+		<li><a href="https://twitter.com/sncthc_science">14/02/24　科学部Twitterアカウント開設しました！</li>
+		<li>14/02/24　YouTubeに部内ロボコンの動画をアップロードしました！</li>
+		<li>14/02/24　ホームページリニューアルしました！</li>
+		<li><a href="clubrobocon.html">14/01/26　部内ロボコンを開催しました</a></li>
+		</ul></td></tr>
+		</tbody>
+		</table>
+		</div>
+
+		<br>
+		<br>
+		<p id="jobs">JOBS ABOUT SNCT SCIENCE CLUB
+		<a href="http://www.youtube.com/channel/UCtdITkGWHYLyqeTsfuBcKpA"><img src="images/YouTube-icon.png" id="youico"></a>
+		<a href="https://twitter.com/sncthc_science"><img src="images/____.png" id="___"></a>
+		</p>
+		<br>
+		<p class="lastup">Last up date : 2014/04/25</p>
+
+		<footer>
+		&copy; 2014 仙台高等専門学校広瀬キャンパス 科学部 .
+		</footer>
+	</body>
+</html>

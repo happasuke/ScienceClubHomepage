@@ -1,0 +1,67 @@
+.sub{
+    font-size:25px;
+    color:green;
+    background-color:#a2ffa2;
+    height:36px;
+    width:500px;
+    margin:50px 0px 30px 50px;
+}
+
+.pass{
+    color:black;
+    height:1700px;
+    margin:0px 50px 0px 50px;
+}
+
+#pict1{
+    margin:0px 350px 0px;
+    width:300px;
+}
+
+#pict2{
+    width:300px;
+    height:230px;
+}
+#pict3{
+    width:300px;
+    height:230px;
+}
+#pict4{
+    width:300px;
+    height:230px;
+    margin:-240px 0px 0px 610px;
+}
+
+#tube1{
+    width:420px;
+    height:315px;
+}
+
+#tube2{
+    width:420px;
+    height:315px;
+    margin:0px 0px 0px 50px;    
+}
+
+#tube3{
+    width:420px;
+    height:315px;
+}
+
+#tube4{
+    width:420px;
+    height:315px;
+    margin:0px 0px 0px 50px;
+}
+
+#tube5{
+    width:420px;
+    height:315px;
+    
+}
+
+#tube6{
+    width:420px;
+    height:315px;
+    margin:0px 0px 0px 50px;    
+}

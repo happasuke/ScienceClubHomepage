@@ -1,0 +1,86 @@
+@charset"UTF-8";
+
+html{
+	background-image:url("../images/mokume.png");
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+body{
+	color:#2f4f4f;
+	width:1000px;
+}
+
+.bcolor{
+	width:1000px;
+	margin:30px 0px 0px 0px;
+	background-color:white;
+}
+
+#cl_tag{
+	font-size:40px;
+	background-color:#eee;
+	width:900px;
+	height:60px;
+	margin:40px auto 0px;
+}
+
+
+.intro{
+	width:900px;
+	height:50px;
+	line-height:25px;
+	margin:0px 0px 0px 0px;
+	background-color:white;
+	text-align:center;
+}
+
+/*jun2014*/
+#jun2014{
+	background-color:white;
+}
+
+#jun2014title{
+	font-size:30px;
+	width:800px;
+	line-height:60px;
+	background-color:maroon;
+	color:white;
+	margin:0px auto 0px;
+}
+
+#kusa{
+	margin:20px 50px 20px 50px;
+	line-height:10px;
+	background-color:white;
+}
+
+/*movies*/
+#movie{
+	width:1000px;
+	margin:180px auto 0px;
+	height:300px;
+}
+#movie iframe{
+	width:420px;
+	height:315px;
+	frameborder:0;
+}
+#movie tr{
+	height:100px;
+	width:1000px;
+	
+}
+#movie td{
+	width:333px;
+	height:100px;
+	text-align:center;
+	background-color:white;
+}
+
+#menu{
+
+background-image:url("img/menu1.png");
+
+}
+

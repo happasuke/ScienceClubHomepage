@@ -1,0 +1,59 @@
+body {  font-family: /*"メイリオ",*/"MSPゴシック","Osaka"}
+
+
+.state {position:absolute; left:0px; top:0px; }
+
+td {  font-size: 10pt; line-height: 150%; color: #cccccc}
+
+td.title1 {  font-size: 12pt; color: #333333; font-weight: bold; text-align: center;}
+
+td.title2 {  color: #333333; font-weight: bold;}
+
+td.copy {  color: #444444; text-align: center; background-image: url(image/title2_center.png);}
+
+td.contents1 {   font-size: 11pt; font-weight: bold; text-align: center;}
+
+td.contents2 {   text-align: center;}
+
+h1 {  font-size: 18pt; font-weight: none;}
+
+h2 {  font-size: 12pt; font-weight: none;}
+
+a:link {  color: #6699ff}
+a:visited {  color: #cc66cc}
+a:hover {  color: #FF6666; text-decoration: underline}
+a {  text-decoration: none}
+
+a.titlel {  color: #0000FF; font-weight: bold;}
+a.titlel:visited {  color: #7700FF}
+a.titlel:hover {  color: #cc3333; text-decoration: none;}
+img {  border:none}
+
+
+#menu ul {
+	padding: 0px;
+	margin: 1px;
+	list-style: none;
+}
+#menu li {
+	border-color: #FFFFFF;
+	border-width:1px;
+	border-style:solid;
+	font-size:12px;
+}
+#menu li a {
+	background-image: url(image/menubg1.png);
+	padding:2px 0px 2px 10px;
+	display: block;
+	margin: 0px;
+	color: #FFFFFF;
+	text-decoration: none
+}
+#menu li a:visited {
+	color: #FFFFFF
+}
+#menu li a:hover {
+	background-image: url(image/menubg2.png);
+	color: #FFFF00;
+	text-decoration: none;
+}

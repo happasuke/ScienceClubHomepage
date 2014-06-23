@@ -1,0 +1,5 @@
+#! /bin/csh
+
+@ TEMP = `cat ./.num`
+expr $TEMP + 1 > ./.num
+echo $TEMP
