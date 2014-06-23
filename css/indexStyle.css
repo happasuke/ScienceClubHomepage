@@ -157,8 +157,9 @@ opacity:0.85;
 }
 
 .contents{
+	margin:0px;
 	height:100px;
-	
+	width:600px;
 }
 
 #whatnew{
