@@ -12,6 +12,18 @@ body{
     height:auto;
 }
 
+#robot{
+  height:750px;
+  margin:0px;
+  padding:0px;
+}
+
+.machineImage{
+  padding:0px;
+  border:0px;
+  margin:0px;
+}
+
 #sa{
   width:200px;
   height:330px;

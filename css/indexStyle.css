@@ -11,8 +11,9 @@
 body,height{
 	height:auto;
 }
+
 html{
-	background-color:darkorange;
+	background-color:paleturquoise;
 }
 
 body{
@@ -23,11 +24,11 @@ body{
 }
 
 a{
-color:white;
+	color:white;
 }
 
 a:visited{
-color:white;
+	color:white;
 }
 
 /*top*/
@@ -54,16 +55,17 @@ color:white;
 }
 
 .welcome{
-	background-color:;
+	background-color:black;
 	vertical-align:center;
 	line-height:40px;
 	color:red;
 	font-size:20px;
-	height:180px;
+	height:130px;
 	width:800px;
 	margin:-190px 0px 0px 110px;
+	padding:10px 0px 0px 10px;
 	position:relative;
-	opacity:1;
+	opacity:0.75;
 	z-index:10;
 }
 
@@ -104,8 +106,8 @@ header{
 #recentevent{
 	width:700px;
 	font-size:40px;
-	margin:50px auto -60px;
-	text-align:center;;
+	margin:100px auto -60px;
+	text-align:center;
 	background-color:#eee;
 	color:deeppink;
 }
@@ -124,18 +126,18 @@ header{
 }
 
 #glnavIndex li{
-list-style-type:none;
-background-color:#b00;
-float:left;
-width:200px;
-line-height:50px;
-text-align:center;
-vertical-align:middle;
-margin-right: auto;
-margin-left:auto;
-position:relative;
-opacity:0.85;
-z-index:12;
+	list-style-type:none;
+	background-color:#b00;
+	float:left;
+	width:200px;
+	line-height:50px;
+	text-align:center;
+	vertical-align:middle;
+	margin-right: auto;
+	margin-left:auto;
+	position:relative;
+	opacity:0.85;
+	z-index:12;
 }
 
 #glnavIndex  a{
@@ -143,17 +145,17 @@ font-size:20px;
 }
 
 #glnavIndex li:hover{
-list-style-type:none;
-background-color:#e00;
-float:left;
-width:200px;
-line-height:50px;
-text-align:center;
-vertical-align:middle;
-margin-right: auto;
-margin-left:auto;
-position:relative;
-opacity:0.85;
+	list-style-type:none;
+	background-color:#e00;
+	float:left;
+	width:200px;
+	line-height:50px;
+	text-align:center;
+	vertical-align:middle;
+	margin-right: auto;
+	margin-left:auto;
+	position:relative;
+	opacity:0.85;
 }
 
 .contents{
@@ -168,8 +170,8 @@ opacity:0.85;
 }
 
 #whatnew td{
-width:100%;
-text-align:center;
+	width:100%;
+	text-align:center;
 }
 
 #whatnew p{
@@ -180,24 +182,24 @@ text-align:center;
 }
 
 #whatnew img{
-height:90px;
-width:600px;
-margin:0;
+	height:90px;
+	width:600px;
+	margin:0;
 }
 
 #information{
-clear:both;
-margin:0px auto 0px;
-height:400px;
-width:700px;
-overflow-y:scroll;
-overflow-x:hidden;
+	clear:both;
+	margin:0px auto 40px;
+	height:200px;
+	width:700px;
+	overflow-y:scroll;
+	overflow-x:hidden;
 }
 
 #information th{
-width:900px;
-background-color:#eee;
-color:#fff;
+	width:900px;
+	background-color:#eee;
+	color:#fff;
 }
 
 #information a{
@@ -213,9 +215,14 @@ color:#fff;
 	width:600px;
 }
 
+#twitter-area{
+	width:1000px;
+	margin:0px 0px 30px 40px;
+}
+
 .twitter-timeline{
-	margin:0px auto 0px;
-	height:400px;
+	margin:0px 0px 0px 0px;
+	height:500px;
 }
 
 .twitter{
