@@ -176,7 +176,6 @@ font-size:20px;
 
 #whatnew p{
 	font-size:25px;
-	color:white;
 	margin:-40px 0px 5px 330px;
 	text-align:left;
 }
@@ -185,6 +184,18 @@ font-size:20px;
 	height:90px;
 	width:600px;
 	margin:0;
+}
+
+#activity{
+	background-color:#eee;
+	text-align:center;
+	vertical-align:middle;
+	clear:both;
+	margin:0px auto 0px;
+	padding:0px 0px 0px 20px;
+	height:30px;
+	width:700px;
+	font-size:20px;
 }
 
 #information{
@@ -208,6 +219,23 @@ font-size:20px;
 
 #information font{
 	color:#aaa;
+}
+
+#nsum1{
+	margin:0px;
+	padding:0px;
+	background-color:white;
+	color:#f00;
+	height:40px;
+	width:500px;
+}
+
+#nsum2{
+	color:#fff;
+}
+
+#nsum3{
+	color:#fff;
 }
 
 #twitter-widget-0{

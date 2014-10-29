@@ -1,3 +1,11 @@
+*{
+  position:relative;
+}
+
+html{
+  background-color:#fcd29c;
+}
+
 h1{
   width:500px;
   height:40px;
@@ -9,16 +17,43 @@ h1{
   font-family:'Meiryo';
   color:white;
   padding:20px 0px 20px 100px;
+  position:relative;
+  z-index:1;
+  opacity:0.85;
 }
 
 #hare{
-  width:800px;
-  height:550px;
-  margin:30px 100px 0px 100px;
-  padding:0px:
+  width:1000px;
+  height:700px;
+  margin:-110px 0px 0px 0px;
+  padding:0px;
+  position:relative;
+  z-index:0;
 }
 
 #main{
+  opacity:1;
+  position:relative;
   margin:50px 0px 50px 50px;
 }
 
+#mainbed{
+  width:700px;
+  height:300px;
+  opacity:0.85;
+  background-color:white;
+  margin:-350px auto 100px;
+  padding:5px 20px 5px 0px;
+  z-index:0;
+}
+
+.picttable{
+  width:333px;
+  height:250px;
+}
+
+.pictpassage{
+  font-size:13px;
+  text-align:middle;
+  vertical-align:center;
+}
